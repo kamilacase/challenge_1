@@ -1,1 +1,96 @@
-z
+header h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 133px;
+    color: #cfa205;
+    margin: 0;
+    font-weight: inherit;
+
+}
+
+header
+{
+    background-color: black;
+    width: 1020px;
+    height: 320px;
+    margin: auto;
+    text-align: center;
+
+}
+nav
+{
+        width: 1020px;
+        height: 60px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        color: white;
+}
+
+header h2
+{
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    color: #cfa205;
+}
+
+.link
+{
+    width: 1020px;
+    height: 60px;
+    background-color: #e8e8e8;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+
+}
+
+.intro
+{
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    color: #7a7a7a;
+    width: 1020px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.colums h1
+{
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    color: black;
+}
+
+.colums
+{
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+    color: #7a7a7a;
+
+}
+
+body
+{background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main
+{
+    width: 1020px;
+    margin: auto;
+    background-color: white;
+}
+
+article
+{
+text-align: center;
+    display: inline-flex;
+    width: 260px;
+    height: 480px;
+}
