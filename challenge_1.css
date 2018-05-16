@@ -90,7 +90,7 @@ main
 article
 {
 text-align: center;
-    display: inline-flex;
+    display: inline;
     width: 260px;
     height: 480px;
 }
