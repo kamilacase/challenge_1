@@ -1,4 +1,4 @@
-.selected
+.current
 {
 color: #cfa205;
 }
@@ -36,6 +36,7 @@ color: white;
 margin-left: 15px;
 text-transform: uppercase;
 font-weight: 700;
+text-decoration: none;
 
 }
 
@@ -72,6 +73,10 @@ header
     text-align: center;
     font-size: 30px;
 }
+a
+{
+    color: #7a7a7a;
+}
 .intro
 {
     margin: auto;
@@ -83,6 +88,7 @@ header
     font-weight: bold;
     text-align: center;
     background-color: white;
+    line-height: 1.5;
 }
 
 body
@@ -110,6 +116,7 @@ article
     font-size: 14px;
     color: #7a7a7a;
     display: inline-block;
+    line-height: 1.5;
 
 }
 
@@ -161,4 +168,13 @@ hr
     font-weight: bold;
     color: #7a7a7a;
 
+}
+
+.fas
+{
+    font-size: 30px;
+    color: black;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
 }
