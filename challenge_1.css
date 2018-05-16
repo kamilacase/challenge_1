@@ -45,6 +45,7 @@ h2
     font-weight: bold;
     text-transform: capitalize;
     text-transform: full-width;
+    padding-top: 2em;
 }
 
 header
@@ -53,4 +54,78 @@ header
     height: 320px;
     margin:auto;
     background-color: black;
+}
+.links
+{
+    background-color: #d3d3d3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 1020px;
+    height: 30px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+.intro
+{
+    width: 1020px;
+    height: 90px;
+    margin: auto;
+    font-size: 18px;
+    padding-top: 2em;
+    margin-bottom: 2em;
+    font-family: 'Bitter', serif;
+    color: #7a7a7a;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+
+}
+
+body
+{
+    background-image:url(bg.jpg);
+    background-size: cover;
+}
+
+main
+{
+    background-color: white;
+    width: 1020px;
+    height: 700px;
+    margin:auto;
+}
+
+article
+{
+    width: 260px;
+    height: 480px;
+    font-family: 'Bitter', serif;
+    font-size: 14px;
+    color: #7a7a7a;
+    text-align: center;
+
+}
+
+h1
+{
+    font-size: 18px;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+
+}
+
+article h1
+{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+article
+{
+    display: inline-block;
+    margin:auto;
 }
