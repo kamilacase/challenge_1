@@ -1,16 +1,13 @@
-.current
-{
-color: #cfa205;
+.current {
+    color: #cfa205;
 }
 
-li
-{
-list-style-type: none;
-display: inline;
+li {
+    list-style-type: none;
+    display: inline;
 }
 
-nav
-{
+nav {
     background-color: black;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 14px;
@@ -20,8 +17,7 @@ nav
     font-weight: bold;
 }
 
-header h1
-{
+header h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 133px;
     color: #cfa205;
@@ -30,18 +26,15 @@ header h1
     font-weight: bold;
 }
 
-nav a
-{
-color: white;
-margin-left: 15px;
-text-transform: uppercase;
-font-weight: 700;
-text-decoration: none;
-
+nav a {
+    color: white;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-h2
-{
+h2 {
     font-size: 18px;
     color: #cfa205;
     background-color: black;
@@ -53,19 +46,16 @@ h2
     padding-top: 1em;
     padding-bottom: 2em;
     text-transform: uppercase;
-
 }
 
-header
-{
+header {
     width: 1020px;
     height: auto;
-    margin:auto;
+    margin: auto;
     background-color: black;
-
 }
-.links
-{
+
+.links {
     background-color: #d3d3d3;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -73,12 +63,12 @@ header
     text-align: center;
     font-size: 30px;
 }
-a
-{
+
+a {
     color: #7a7a7a;
 }
-.intro
-{
+
+.intro {
     margin: auto;
     font-size: 18px;
     padding-top: 2em;
@@ -91,47 +81,40 @@ a
     line-height: 1.5;
 }
 
-body
-{
-    background-image:url(bg.jpg);
+body {
+    background-image: url(bg.jpg);
     background-size: cover;
-
 }
 
-main
-{
+main {
     background-color: white;
     width: 1020px;
-    margin:auto;
+    margin: auto;
     padding: 2em;
     box-sizing: border-box;
 }
-.contenu
-{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2em;
-  padding-top: 1em;
+
+.contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2em;
+    padding-top: 1em;
 }
 
-.gauche
-{
-  margin-left: 30px;
+.gauche {
+    margin-left: 30px;
 }
 
-.centre
-{
-  margin-left: 56px;
+.centre {
+    margin-left: 56px;
 }
 
-.droite
-{
-  margin-left: 56px;
+.droite {
+    margin-left: 56px;
 }
 
-article
-{
+article {
     width: 260px;
     height: 480px;
     font-family: 'Bitter', serif;
@@ -140,41 +123,32 @@ article
     color: #7a7a7a;
     display: inline-block;
     line-height: 1.5;
-
 }
 
-h1
-{
+h1 {
     font-size: 18px;
     font-family: 'Bitter', serif;
     font-weight: bold;
-
 }
 
-article h1
-{
+article h1 {
     color: black;
     font-size: 18px;
     margin-bottom: 1em;
     margin-top: 1em;
-
 }
 
-hr
-{
+hr {
     margin-top: 2em;
     margin-bottom: 1em;
 }
 
-hr
-{
+hr {
     font-weight: bold;
     color: #7a7a7a;
-
 }
 
-.fas
-{
+.fas {
     font-size: 30px;
     color: black;
     position: fixed;
@@ -182,21 +156,38 @@ hr
     right: 1em;
 }
 
-@media screen and (max-width: 1020px) {
-  header, main {
-    max-width: 100%;
-  }
-  header h1 {
-    font-size: 60px;
-    margin-bottom: 73px;
-  }
+footer {
+    display: flex;
+    width: 1020px;
+    margin: auto;
 }
+
+@media screen and (max-width: 1020px) {
+    header,
+    main {
+        max-width: 100%;
+    }
+    header h1 {
+        font-size: 60px;
+        margin-bottom: 73px;
+    }
+    footer {
+        width: 1020px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     header h1 {
         font-size: 30px;
     }
-    img{
+    img {
         width: 100%;
         height: auto;
     }
+}
+
+footer p {
+    color: blanchedalmond;
+    width: 1020px;
+    background-color: black;
 }
